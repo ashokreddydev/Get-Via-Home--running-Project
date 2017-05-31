@@ -9,7 +9,7 @@ class ContactRequest extends React.Component {
 <header className="header fixed-top clearfix">
 {/* logo start */}
 <div className="brand">
-    <a href="admin-dashboard.html" className="logo">
+    <a href="DashBoard" className="logo">
         <img src="images/main-logo.png" className="img-responsive" />
     </a>
     <div className="sidebar-toggle-box">
@@ -100,7 +100,7 @@ class ContactRequest extends React.Component {
                     <div className="alert alert-info clearfix">
                         <span className="alert-icon"><i className="fa fa-building"></i></span>
                         <div className="noti-info">
-                            <a href="managecontact.html"> User3 Invested on Project 3.</a>
+                            <a href="AdminManageProjectContactDetails"> User3 Invested on Project 3.</a>
                         </div>
                     </div>
                 </li>
@@ -108,7 +108,7 @@ class ContactRequest extends React.Component {
                     <div className="alert alert-danger clearfix">
                         <span className="alert-icon"><i className="fa fa-building"></i></span>
                         <div className="noti-info">
-                            <a href="managecontact.html"> User1 Selected Project 2.</a>
+                            <a href="AdminManageProjectContactDetails"> User1 Selected Project 2.</a>
                         </div>
                     </div>
                 </li>
@@ -116,7 +116,7 @@ class ContactRequest extends React.Component {
                     <div className="alert alert-success clearfix">
                         <span className="alert-icon"><i className="fa fa-building"></i></span>
                         <div className="noti-info">
-                            <a href="managecontact.html"> 2 Users Contacted on Project 8.</a>
+                            <a href="AdminManageProjectContactDetails"> 2 Users Contacted on Project 8.</a>
                         </div>
                     </div>
                 </li>
@@ -141,9 +141,9 @@ class ContactRequest extends React.Component {
                 <b className="caret"></b>
             </a>
             <ul className="dropdown-menu extended logout">
-                <li><a href="profile.html"><i className=" fa fa-suitcase"></i>Profile</a></li>
+                <li><a href="Profile"><i className=" fa fa-suitcase"></i>Profile</a></li>
               
-                <li><a href="index.html"><i className="fa fa-key"></i> Log Out</a></li>
+                <li><a href="/"><i className="fa fa-key"></i> Log Out</a></li>
             </ul>
         </li>
         {/*  user login dropdown end  */}
@@ -163,7 +163,7 @@ class ContactRequest extends React.Component {
         <div className="leftside-navigation">
             <ul className="sidebar-menu" id="nav-accordion">
                 <li>
-                    <a href="admin-dashboard.html">
+                    <a href="DashBoard">
                         <i className="fa fa-dashboard"></i>
                         <span>Dashboard</span>
                     </a>
@@ -173,6 +173,7 @@ class ContactRequest extends React.Component {
                         <i className="fa fa-building"></i>
                         <span>Projects</span>
                     </a>
+                    
                     <ul className="sub">
                          <li className="active"><a href="AdminAddProject">Add Project</a></li>
                         <li><a href="AdminManageProject">Manage Project</a></li>
@@ -212,10 +213,10 @@ class ContactRequest extends React.Component {
 			<div className="col-md-12">
                     <ul className="breadcrumbs-alt">
 					<li>
-                            <a href="admin-dashboard.html">Dashboard</a>
+                            <a href="DashBoard">Dashboard</a>
                         </li>
                         <li>
-                            <a href="contactrequest.html" className="current">Contact Request</a>
+                            <a href="AdminContactRequest" className="current">Contact Request</a>
                         </li>
                           {/* <li>
                             <a className="current" href="profile.html">Profile</a>

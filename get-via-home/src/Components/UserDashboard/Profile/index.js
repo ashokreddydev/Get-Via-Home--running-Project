@@ -13,7 +13,7 @@ class Profile extends React.Component {
 <header className="header fixed-top clearfix">
 {/* logo start */}
 <div className="brand">
-    <a href="admin-dashboard.html" className="logo">
+    <a href="DashBoard" className="logo">
         <img src="images/main-logo.png" alt="img" className="img-responsive" />
     </a>
     <div className="sidebar-toggle-box">
@@ -104,7 +104,7 @@ class Profile extends React.Component {
                     <div className="alert alert-info clearfix">
                         <span className="alert-icon"><i className="fa fa-building"></i></span>
                         <div className="noti-info">
-                            <a href="managecontact.html"> User3 Invested on Project 3.</a>
+                            <a href="AdminManageProjectContactDetails"> User3 Invested on Project 3.</a>
                         </div>
                     </div>
                 </li>
@@ -112,7 +112,7 @@ class Profile extends React.Component {
                     <div className="alert alert-danger clearfix">
                         <span className="alert-icon"><i className="fa fa-building"></i></span>
                         <div className="noti-info">
-                            <a href="managecontact.html"> User1 Selected Project 2.</a>
+                            <a href="AdminManageProjectContactDetails"> User1 Selected Project 2.</a>
                         </div>
                     </div>
                 </li>
@@ -120,7 +120,7 @@ class Profile extends React.Component {
                     <div className="alert alert-success clearfix">
                         <span className="alert-icon"><i className="fa fa-building"></i></span>
                         <div className="noti-info">
-                            <a href="managecontact.html"> 2 Users Contacted on Project 8.</a>
+                            <a href="AdminManageProjectContactDetails"> 2 Users Contacted on Project 8.</a>
                         </div>
                     </div>
                 </li>
@@ -167,7 +167,7 @@ class Profile extends React.Component {
         <div className="leftside-navigation">
             <ul className="sidebar-menu" id="nav-accordion">
                 <li>
-                    <a href="admin-dashboard.html">
+                    <a href="">
                         <i className="fa fa-dashboard"></i>
                         <span>Dashboard</span>
                     </a>
@@ -178,9 +178,9 @@ class Profile extends React.Component {
                         <span>Projects</span>
                     </a>
                     <ul className="sub">
-                        <li><a href="addproject.html">Add Project</a></li>
-                        <li><a href="manageprojects.html">Manage Project</a></li>
-                        <li><a href="managecontact.html">Manage Project Contact Details</a></li>
+                        <li><a href="AdminAddProject">Add Project</a></li>
+                        <li><a href="AdminManageProject">Manage Project</a></li>
+                        <li><a href="AdminManageProjectContactDetails">Manage Project Contact Details</a></li>
                     </ul>
                 </li>
                 <li>
@@ -189,17 +189,17 @@ class Profile extends React.Component {
                         <span>User Management</span>
                     </a>
 					<ul className="sub">
-                        <li><a href="manageusers.html">Manage Users</a></li>
+                        <li><a href="AdminManageUsers">Manage Users</a></li>
                     </ul>
                 </li>
 				<li>
-                    <a href="notifications.html">
+                    <a href="AdminNotifications">
                         <i className="fa fa-comments"></i>
                         <span>Notifications</span>
                     </a>
                 </li>
 				<li>
-                    <a href="contactrequest.html">
+                    <a href="AdminContactRequest">
                         <i className="fa fa-mobile"></i>
                         <span>Contact Request</span>
                     </a>
@@ -216,7 +216,7 @@ class Profile extends React.Component {
 			<div className="col-md-12">
                     <ul className="breadcrumbs-alt">
                         <li>
-                            <a href="#" className="">Dashboard</a>
+                            <a href="DashBoard" className="">Dashboard</a>
                         </li>
                          <li>
                             <a className="current" href="Profile">Profile</a>
