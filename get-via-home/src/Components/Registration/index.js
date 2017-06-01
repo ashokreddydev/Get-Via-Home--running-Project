@@ -8,7 +8,7 @@ class Registration extends React.Component {
       
    
     return (
-      <div className="login-body login-body2" >  
+      <div className="login-body login-body2" >
     <div className="container" >
       <form className="form-signin form-reg" action="index.html">
         <h2 className="form-signin-heading">registration now</h2>

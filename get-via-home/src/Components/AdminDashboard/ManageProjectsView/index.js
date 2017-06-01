@@ -215,7 +215,10 @@ class ManageProjectsView extends React.Component {
                             <a href="DashBoard" className="">Dashboard</a>
                         </li>
                          <li>
-                            <a className="current" href="AdminAddProject">Edit Project Details</a>
+                            <a  href="AdminManageProject">Manage Projects</a>
+                        </li>
+                        <li>
+                            <a className="current" href="AdminManageProjectsView ">Edit Project Details</a>
                         </li>
                         {/*<li>
                             <a className="current" href="#">Elements</a>
