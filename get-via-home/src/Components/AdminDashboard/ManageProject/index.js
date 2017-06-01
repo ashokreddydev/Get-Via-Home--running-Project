@@ -261,7 +261,7 @@ class ManageProject extends React.Component {
                                 <td>25276.00$ </td>
                                 <td>22 Members</td>
                                 <td>
-                                    <a href="manageprojectsview.html"><img src="images/edit.png" title="" data-placement="top" data-toggle="tooltip" className="tooltips img-responsive" data-original-title="Edit" /></a>
+                                    <a href="AdminManageProjectsView "><img src="images/edit.png" title="" data-placement="top" data-toggle="tooltip" className="tooltips img-responsive" data-original-title="Edit" /></a>
 								</td>
                             </tr>
                             <tr>
@@ -270,7 +270,7 @@ class ManageProject extends React.Component {
                                 <td className="hidden-phone">Lorem Ipsum dorolo imit</td>
                                 <td>73344.00$ </td>
                                 <td>153 Members</td>
-                                <td><a href="manageprojectsview.html"><img src="images/edit.png" title="" data-placement="top" data-toggle="tooltip" className="tooltips img-responsive" data-original-title="Edit" /></a></td>
+                                <td><a href="AdminManageProjectsView "><img src="images/edit.png" title="" data-placement="top" data-toggle="tooltip" className="tooltips img-responsive" data-original-title="Edit" /></a></td>
                             </tr>
 							<tr>
 								<td><img src="images/properties/property-3.png" className="img-responsive" /></td>
@@ -278,7 +278,7 @@ class ManageProject extends React.Component {
                                 <td className="hidden-phone">Lorem Ipsum dorolo imit</td>
                                 <td>15321.00$ </td>
                                 <td>41 Members</td>
-                                <td><a href="manageprojectsview.html"><img src="images/edit.png" title="" data-placement="top" data-toggle="tooltip" className="tooltips img-responsive" data-original-title="Edit" /></a></td>
+                                <td><a href="AdminManageProjectsView "><img src="images/edit.png" title="" data-placement="top" data-toggle="tooltip" className="tooltips img-responsive" data-original-title="Edit" /></a></td>
                             </tr>
 							<tr>
 								<td><img src="images/properties/property-4.png" className="img-responsive" /></td>
@@ -286,7 +286,7 @@ class ManageProject extends React.Component {
                                 <td className="hidden-phone">Lorem Ipsum dorolo imit</td>
                                 <td>45279.00$ </td>
                                 <td>84 Members</td>
-                                <td><a href="manageprojectsview.html"><img src="images/edit.png" title="" data-placement="top" data-toggle="tooltip" className="tooltips img-responsive" data-original-title="Edit" /></a></td>
+                                <td><a href="AdminManageProjectsView "><img src="images/edit.png" title="" data-placement="top" data-toggle="tooltip" className="tooltips img-responsive" data-original-title="Edit" /></a></td>
                             </tr>
                             </tbody>
                         </table>

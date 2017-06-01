@@ -223,7 +223,7 @@ class Profile extends React.Component {
                         </li>
                         {/* <li>
                             <a className="current" href="#">Elements</a>
-                        </li>  */}
+                        </li>  */}.html
                     </ul>
                 </div>
 		</div>

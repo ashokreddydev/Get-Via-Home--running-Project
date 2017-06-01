@@ -16,6 +16,7 @@ import AdminManageProject from './Components/AdminDashboard/ManageProject';
 import AdminManageProjectContactDetails from './Components/AdminDashboard/ManageProjectContactDetails';
 import AdminManageUsers from './Components/AdminDashboard/ManageUsers';
 import AdminContactRequest from './Components/AdminDashboard/ContactRequest';
+import AdminManageProjectsView from './Components/AdminDashboard/ManageProjectsView';
 
 
 
@@ -50,6 +51,7 @@ const Routes = (props) => (
     <Route path="/AdminManageUsers" component={AdminManageUsers} />
     <Route path="/AdminNotifications" component={AdminNotifications} />
     <Route path="/AdminContactRequest" component={AdminContactRequest} />
+    <Route path="/AdminManageProjectsView" component={AdminManageProjectsView} />
     
     
     

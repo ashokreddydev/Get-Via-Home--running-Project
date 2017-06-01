@@ -9,7 +9,7 @@ class Login extends React.Component {
       <div>
       <div className="login-body cust-body" >
     <div className="container">
-      <form className="form-signin" action="index.html">
+      <div className="form-signin" >
         <img src={logo} alt="logo" className="img-responsive"/>
         <div className="login-wrap">
             <div className="user-login-info" id="cust-login">
@@ -55,7 +55,7 @@ class Login extends React.Component {
               </div>
           </div>
          
-      </form>
+      </div>
     </div>
     
   </div>
