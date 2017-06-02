@@ -30,9 +30,9 @@ class Dashboard extends React.Component {
        <CartesianGrid strokeDasharray="3 3"/>
        <Tooltip/>
        <Legend />
-       <Bar dataKey="Total_Projects" fill="#8884d8" />
-       <Bar dataKey="Total_Investors" fill="#82ca9d" />
-        <Bar dataKey="Total_Contacts" fill=" red" />
+       <Bar dataKey="Total_Projects" fill="#338b7a" />
+       <Bar dataKey="Total_Investors" fill="#4997b7" />
+        <Bar dataKey="Total_Contacts" fill="#c3a515" />
       </BarChart>
     );
   }
