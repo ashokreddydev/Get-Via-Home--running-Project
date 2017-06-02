@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageGallery from 'react-image-gallery';
    {/*     jQuery(document).ready(function ($) {
 
             var jssor_1_SlideshowTransitions = [
@@ -64,6 +65,82 @@ import React from 'react';
 
 class ManageProjectContactDetails extends React.Component {
   render() {
+      
+      const images = [
+      {
+        original: 'http://lorempixel.com/1000/600/nature/1/',
+        thumbnail: 'http://lorempixel.com/1000/600/nature/1/',
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/2/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/3/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+      },
+        {
+        original: 'http://lorempixel.com/1000/600/nature/1/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/1/',
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/2/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/3/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+      },
+        {
+        original: 'http://lorempixel.com/1000/600/nature/1/',
+        thumbnail: 'http://lorempixel.com/1000/600/nature/1/',
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/2/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/3/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+      },
+        {
+        original: 'http://lorempixel.com/1000/600/nature/1/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/1/',
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/2/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/3/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+      },
+        {
+        original: 'http://lorempixel.com/1000/600/nature/1/',
+        thumbnail: 'http://lorempixel.com/1000/600/nature/1/',
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/2/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/3/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+      },
+        {
+        original: 'http://lorempixel.com/1000/600/nature/1/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/1/',
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/2/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+      },
+      {
+        original: 'http://lorempixel.com/1000/600/nature/3/',
+        thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+      }
+    ]
+      
     return (
      <section id="container" >
 {/* header start */}
@@ -289,9 +366,19 @@ class ManageProjectContactDetails extends React.Component {
 				<div className="row">
 						
 					<div className="col-md-7">
-			
+        
+           <ImageGallery
+        items={images}
+        autoPlay={true}
+        showPlayButton={false}
+       
+        
+        slideInterval={5000}
+        onImageLoad={this.handleImageLoad}/>
+        
+		{/* 
 			<div id="jssor_1" className="jssor_1_demo1" >
-        {/*  Loading Screen  */}
+       
         <div data-u="loading" className="jssor_1_demo2" >
             <div className="jssor_1_demo3" ></div>
             <div className="jssor_1_demo4"></div>
@@ -355,9 +442,9 @@ class ManageProjectContactDetails extends React.Component {
             </div>
             <a data-u="any" href="http://www.jssor.com" className="jssor_1_demo6">Image Gallery with Vertical Thumbnail</a>
         </div>
-        {/*  Thumbnail Navigator  */}
+        
         <div data-u="thumbnavigator" className="jssort01-99-66 jssor_1_demo7"  data-autocenter="2">
-            {/*  Thumbnail Item Skin Begin  */}
+         
             <div data-u="slides" className="jssor_1_demo8a">
                 <div data-u="prototype" className="p">
                     <div className="w">
@@ -366,12 +453,12 @@ class ManageProjectContactDetails extends React.Component {
                     <div className="c"></div>
                 </div>
             </div>
-            {/*  Thumbnail Item Skin End  */}
+         
         </div>
-        {/*  Arrow Navigator  */}
+        
         <span data-u="arrowleft" className="jssora05l jssor_1_demo8"  data-autocenter="2"></span>
         <span data-u="arrowright" className="jssora05r jssor_1_demo9" data-autocenter="2"></span>
-    </div>
+    </div> */}
 		</div>
 		<div className="details col-md-5">
 						<h2 className="main-color">Project 1</h2> 
