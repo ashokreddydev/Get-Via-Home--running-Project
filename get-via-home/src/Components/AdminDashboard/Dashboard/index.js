@@ -1,8 +1,43 @@
 import React from 'react';
+import {BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
 
 
 class Dashboard extends React.Component {
   render() {
+      
+      const data = [
+      {name: 'Jan', Total_Projects: 4000, Total_Investors: 2400,Total_Contacts: 3000, amt: 2400},
+      {name: 'Feb', Total_Projects: 3000, Total_Investors: 1398,Total_Contacts: 2400, amt: 2210},
+      {name: 'Mar', Total_Projects: 2000, Total_Investors: 9800,Total_Contacts: 2400, amt: 2290},
+      {name: 'Apr', Total_Projects: 2780, Total_Investors: 3908,Total_Contacts: 2400, amt: 2000},
+      {name: 'May', Total_Projects: 1890, Total_Investors: 4800,Total_Contacts: 2400, amt: 2181},
+      {name: 'Jun', Total_Projects: 2390, Total_Investors: 3800,Total_Contacts: 2400, amt: 2500},
+      {name: 'Jul', Total_Projects: 2000, Total_Investors: 9800,Total_Contacts: 2400, amt: 2290},
+      {name: 'Aug', Total_Projects: 2780, Total_Investors: 3908,Total_Contacts: 2400, amt: 2000},
+      {name: 'Sep', Total_Projects: 1890, Total_Investors: 4800,Total_Contacts: 2400, amt: 2181},
+      {name: 'Oct', Total_Projects: 2390, Total_Investors: 3800,Total_Contacts: 2400, amt: 2500},
+      {name: 'Nov', Total_Projects: 2390, Total_Investors: 3800,Total_Contacts: 2400, amt: 2500},
+      {name: 'Dec', Total_Projects: 2390, Total_Investors: 3800,Total_Contacts: 2400, amt: 2500}
+    ]
+      
+           const SimpleBarChart = React.createClass({
+	render () {
+  	return (
+    	<BarChart width={1000} height={300} data={data}
+            margin={{top: 5, right: 30, left: 20, bottom: 5}}>
+       <XAxis dataKey="name"/>
+       <YAxis/>
+       <CartesianGrid strokeDasharray="3 3"/>
+       <Tooltip/>
+       <Legend />
+       <Bar dataKey="Total_Projects" fill="#8884d8" />
+       <Bar dataKey="Total_Investors" fill="#82ca9d" />
+        <Bar dataKey="Total_Contacts" fill=" red" />
+      </BarChart>
+    );
+  }
+})
+      
     return (
       <div >
        <section id="container" >
@@ -258,7 +293,8 @@ class Dashboard extends React.Component {
     <div className="col-md-12">
         <section className="panel">
             <div className="panel-body">
-               <div id="cust-container"></div>
+          <SimpleBarChart />
+             {/*   <div id="cust-container"></div> */}
             </div>
         </section>
     </div>
