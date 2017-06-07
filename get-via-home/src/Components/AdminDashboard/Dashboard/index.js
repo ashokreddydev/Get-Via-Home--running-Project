@@ -45,7 +45,7 @@ class Dashboard extends React.Component {
 <header className="header fixed-top clearfix">
 {/* logo start */}
 <div className="brand">
-    <a href="Dashboard" className="logo">
+    <a href="DashBoard" className="logo">
         <img src="images/main-logo.png" alt="" className="img-responsive" />
     </a>
     <div className="sidebar-toggle-box">
@@ -199,7 +199,7 @@ class Dashboard extends React.Component {
         <div className="leftside-navigation">
             <ul className="sidebar-menu" id="nav-accordion">
                 <li>
-                    <a className="active" href="Dashboard">
+                    <a className="active" href="DashBoard">
                         <i className="fa fa-dashboard"></i>
                         <span>Dashboard</span>
                     </a>
@@ -248,7 +248,7 @@ class Dashboard extends React.Component {
 			<div className="col-md-12">
                     <ul className="breadcrumbs-alt">
                         <li>
-                            <a href="DashBorad" className="current">Dashboard</a>
+                            <a href="DashBoard" className="current">Dashboard</a>
                         </li>
                           {/* <li>
                             <a className="current" href="profile.html">Profile</a>
@@ -322,28 +322,28 @@ class Dashboard extends React.Component {
                             </thead>
                             <tbody>
                             <tr>
-                                <td><a href="#">Project 1</a></td>
+                                <td><a href="RequestProject">Project 1</a></td>
                                 <td className="hidden-phone">Lorem Ipsum dorolo imit</td>
                                 <td>25276.00$ </td>
                                 <td>22 Members</td>
                                 <td>5 Members</td>
                             </tr>
                             <tr>
-                                <td><a href="#">Project 2</a></td>
+                                <td><a href="RequestProject">Project 2</a></td>
                                 <td className="hidden-phone">Lorem Ipsum dorolo imit</td>
                                 <td>73344.00$ </td>
                                 <td>153 Members</td>
                                 <td>18 Members</td>
                             </tr>
 							<tr>
-                                <td><a href="#">Project 3</a></td>
+                                <td><a href="RequestProject">Project 3</a></td>
                                 <td className="hidden-phone">Lorem Ipsum dorolo imit</td>
                                 <td>15321.00$ </td>
                                 <td>41 Members</td>
                                 <td>26 Members</td>
                             </tr>
 							<tr>
-                                <td><a href="#">Project 4</a></td>
+                                <td><a href="RequestProject">Project 4</a></td>
                                 <td className="hidden-phone">Lorem Ipsum dorolo imit</td>
                                 <td>45279.00$ </td>
                                 <td>84 Members</td>
