@@ -1,7 +1,7 @@
-var Admin=require('./Admin/Admin.controller')
+var Register=require('./Register/Register.controller')
 module.exports=function(app)
 {
  
-     app.get('/',Admin.register)
+     app.post('/',Register.register)
     
 }

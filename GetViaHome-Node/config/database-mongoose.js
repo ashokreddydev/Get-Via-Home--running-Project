@@ -10,6 +10,6 @@ module.exports = function() {
     });
 
     //register your schema at time of loading the application.
-//    require("../app/user/user.model");
-//    require("../app/products/product.model");
+    require("../app/Register/Register.model");
+
 }
