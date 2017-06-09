@@ -76,13 +76,22 @@ class Registration extends React.Component {
         
     
     UserRegister(){
-    axios.post('http://192.168.0.4:4200/UserRegister', {
-    firstName: 'Fred',
-    lastName: 'Flintstone'
-                            })
+  	axios({
+  method: 'post',
+  url: '/api/register',
+  data: {
+      email: "Ashok@betabulls123.com",
+    username: "mouni505",
+    password: "asd1234",
+    firstName: "Ashok",
+    lastName: "Reddy",
+    age: "23",
+    gender:"Male"
+  }
+})
   .then(function (response) {
     console.log(response);
-                            })
+  })
   .catch(function (error) {
     console.log(error);
   });

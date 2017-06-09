@@ -2,7 +2,7 @@ var Register={};
 var profileSchema = require("mongoose").model("profile");
 Register.register=function(req,res)
     {      
-//console.log("TEST:"+req.body.firstName);
+console.log("TEST:"+req.body.firstName);
 //    console.log("HI")
      let profile = new profileSchema(req.body);
      profile.save()
