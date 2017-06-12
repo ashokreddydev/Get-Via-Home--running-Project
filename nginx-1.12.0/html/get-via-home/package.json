@@ -1,0 +1,22 @@
+{
+  "name": "get-via-home",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.0.5"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-image-gallery": "^0.8.0",
+    "react-router": "^2.5.2",
+    "recharts": "^1.0.0-alpha.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
