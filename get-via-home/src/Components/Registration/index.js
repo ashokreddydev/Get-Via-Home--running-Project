@@ -28,65 +28,67 @@ class Registration extends React.Component {
     FirstName(event)
             {
                 this.setState({FirstName: event.target.value});
-                console.log("FirstName:"+this.state.FirstName)
+                //console.log("FirstName:"+this.state.FirstName)
             }
     
     LastName(event)
             {
                 this.setState({LastName: event.target.value});
-                console.log("LastName:"+this.state.LastName)
+                //console.log("LastName:"+this.state.LastName)
             }
       
     Address(event)
             {
                 this.setState({Address: event.target.value});
-                console.log("Address:"+this.state.Address)
+               // console.log("Address:"+this.state.Address)
             }
     Email(event)
             {
                 this.setState({Email: event.target.value});
-                console.log("Email:"+this.state.Email)
+                //console.log("Email:"+this.state.Email)
             }
     City(event)
             {
                 this.setState({City: event.target.value});
-                console.log("City:"+this.state.City)
+                //console.log("City:"+this.state.City)
             }
     UserName(event)
             {
                 this.setState({UserName: event.target.value});
-                console.log("UserName:"+this.state.UserName)
+                //console.log("UserName:"+this.state.UserName)
             }
     Password(event)
             {
                 this.setState({Password: event.target.value});
-                console.log("Password:"+this.state.Password)
+               // console.log("Password:"+this.state.Password)
             }
     Repassword(event)
             {
                 this.setState({Repassword: event.target.value});
-                console.log("Repassword:"+this.state.Repassword)
+               // console.log("Repassword:"+this.state.Repassword)
             }
      Agree(event)
             {
                 this.setState({Agree: event.target.checked});
-                console.log("Agree:"+this.state.Agree)
-                alert(this.state.Agree)
+                //console.log("Agree:"+this.state.Agree)
+                //alert(this.state.Agree)
             }
         
     
-    UserRegister(){
-  	axios({
+    UserRegister(){        
+   	axios({
   method: 'post',
   url: '/api/register',
   data: {
-      email: "Ashok@betabulls123.com",
-    username: "mouni505",
-    password: "asd1234",
-    firstName: "Ashok",
-    lastName: "Reddy",
-    age: "23",
-    gender:"Male"
+    email: this.state.Email,
+    username: this.state.UserName,
+    password: this.state.Password,
+    firstName: this.state.FirstName,
+    lastName: this.state.LastName,
+    city:this.state.City,
+    address:this.state.Address,
+    agree:this.state.Agree
+ 
   }
 })
   .then(function (response) {
@@ -95,11 +97,8 @@ class Registration extends React.Component {
   .catch(function (error) {
     console.log(error);
   });
-        
-        
+    
     }
-    
-    
     
   render() {
      

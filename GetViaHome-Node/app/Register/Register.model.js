@@ -10,8 +10,9 @@ var user = {
     password: { type: String },
     firstName: { type: String },
     lastName: { type: String },
-    age: { type: Number },
-    gender: { type: String, enum: ['Male', 'Female', "Donot Disclose"] },
+    city: { type: String },
+    address: { type: String },
+    agree: { type: String },
     createdDate: { type: Date, default: Date.now }
 };
 
